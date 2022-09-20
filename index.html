@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Refund & Cancellation Department</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <!-----------------------------------------------header starts here----------------------------------------------------->
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-default" id="my-navigation">
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle"
+                  data-toggle="collapse"
+                  data-target="#mylist"
+                >
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">
+                  <img src="image/newlogo.png" alt="logo" />
+                  <!-- Anshu -->
+                </a>
+              </div>
+
+              <div class="collapse navbar-collapse" id="mylist">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#connect">Connect</a></li>
+                  <li><a href="#refund">Refund</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!--container ends-->
+    </header>
+    <!-------------------------------------------------header ends here--------------------------------------------------->
+
+    <!-------------------------------------------------banner starts here------------------------------------------------->
+    <section class="banner" id="home">
+      <div class="bg-holder" id="bg-holder"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="banner-text">
+              <h1>Our Refund and Cancellation Policy</h1>
+              <p>
+                Once we receive your return or the seller notifies us of receipt
+                of return, as the case may be, a refund is issued to the
+                original payment method (in case of pre-paid transactions) or to
+                your bank account / as GPay balance (in case of Pay on Delivery
+                orders).
+              </p>
+              <div class="details" id="details">
+                <h4 class="Modes">
+                  The refund time period for different modes of payments is
+                  provided below :
+                </h4>
+                <ul>
+                  <li class="paymentMethod">
+                    FBA Orders
+                    <span class="white"
+                      >( After the return is received by Seller )</span
+                    >
+                  </li>
+                  <li class="paymentMethod">
+                    Seller-Fulfilled Orders
+                    <span>( After seller notifies of receipt of return )</span>
+                  </li>
+                  <li class="paymentMethod">
+                    Prepaid Orders
+                    <ul class="take-top-margin">
+                      <li class="paymentType">
+                        Mobile Pay Balance* ( 2 Hours )
+                      </li>
+                      <li class="paymentType">
+                        Credit Card ( 2-4 Business Days )
+                      </li>
+                      <li class="paymentType">
+                        Debit Card ( 3-5 Business Days )
+                      </li>
+                      <li class="paymentType">
+                        Net Banking Account ( Credited to Bank Account )
+                      </li>
+                      <li class="paymentType">
+                        UPI Linked Bank Account ( 2-4 Business Days )
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="paymentMethod">
+                    Pay On Delivery Orders
+                    <ul class="take-top-margin">
+                      <li class="paymentType">
+                        NEFT to Bank Account ( 2-5 Business Days )
+                      </li>
+                      <li class="paymentType">
+                        Mobile Pay Balance* ( 2 Hours )
+                      </li>
+                      <li class="paymentType">
+                        Paper Cheque ( 8-10 Business Days )
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <p class="disclaimer">
+                  If the standard time-frame as mentioned in the above table has
+                  expired and you have still not received the refund, please
+                  contact your credit or debit card issuer or your bank for more
+                  information. Refunds will not be processed in cash. Refunds
+                  can be processed via paper cheque only in exceptional cases.
+                </p>
+              </div>
+              <button onclick="show(this)">
+                Read More <span>&plus;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------------------------------------banner ends here--------------------------------------------------->
+
+    <!-------------------------------------------------connect starts here------------------------------------------------>
+    <section class="connect inner" id="connect">
+      <div class="bg-holder-new"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="connect-heading">
+              <h1>Connect</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row device-row">
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+            <div class="device-name">
+              <h2>DESKTOP</h2>
+            </div>
+          </div>
+          <div
+            class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-3 col-xs-6"
+          >
+            <a href="#" onclick="getDesktopSoftware(this)"
+              ><button class="device-btn">Support-1</button></a
+            >
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+            <a href="#" onclick="getDesktopSoftware(this)"
+              ><button class="device-btn">Support-2</button></a
+            >
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+            <a href="#" onclick="getDesktopSoftware(this)"
+              ><button class="device-btn">Support-3</button></a
+            >
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+            <a href="#" onclick="getDesktopSoftware(this)"
+              ><button class="device-btn">Support-4</button></a
+            >
+          </div>
+        </div>
+
+        <div class="row device-row">
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+            <div class="device-name">
+              <h2>MAC</h2>
+            </div>
+          </div>
+          <div
+            class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-3 col-xs-6"
+          >
+            <a href="#" onclick="getMACSoftware(this)">
+              <button class="device-btn">Support-1</button></a
+            >
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+            <a href="#" onclick="getMACSoftware(this)">
+              <button class="device-btn">Support-2</button></a
+            >
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+            <a href="#" onclick="getMACSoftware(this)">
+              <button class="device-btn">Support-3</button></a
+            >
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+            <a href="#" onclick="getMACSoftware(this)">
+              <button class="device-btn">Support-4</button></a
+            >
+          </div>
+        </div>
+
+        <div class="row device-row">
+          <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+            <div class="device-name">
+              <h2>ANDROID</h2>
+            </div>
+          </div>
+          <div
+            class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-3 col-xs-6"
+          >
+            <a href="#" onclick="getAndroidSoftware(this)"
+              ><button class="device-btn">Support-1</button></a
+            >
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+            <a href="#" onclick="getAndroidSoftware(this)"
+              ><button class="device-btn">Support-2</button></a
+            >
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+            <a href="#" onclick="getAndroidSoftware(this)"
+              ><button class="device-btn">Support-3</button></a
+            >
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+            <a href="#" onclick="getAndroidSoftware(this)"
+              ><button class="device-btn">Support-4</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------------------------------------connect ends here-------------------------------------------------->
+
+    <!-------------------------------------------------refund starts here-------------------------------------------------->
+    <section class="refund inner" id="refund">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="refund-heading">
+              <h1>Refund</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="row country-row">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+              <div class="country-name">
+                <h2>UK</h2>
+              </div>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+              <a
+                href="https://docs.google.com/forms/d/1ptIHcF2Ppj278DgVMMaQiAshBldvUb80XzszztJ9xf8/viewform?chromeless=1&edit_requested=true"
+              >
+                <button class="refund-btn">Click Here For Refund</button></a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+              <div class="country-name">
+                <h2>US</h2>
+              </div>
+            </div>
+            <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+              <a
+                href="https://docs.google.com/forms/d/1ptIHcF2Ppj278DgVMMaQiAshBldvUb80XzszztJ9xf8/viewform?chromeless=1&edit_requested=true"
+              >
+                <button class="refund-btn">Click Here For Refund</button>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-12">
+            <div class="location-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26371286.49766774!2d-113.71643865663573!3d36.21152009978547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sin!4v1663085731128!5m2!1sen!2sin"
+                width="100%"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------------------------------------refund ends here---------------------------------------------------->
+
+    <!-------------------------------------------------footer starts here-------------------------------------------------->
+    <footer class="inner" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="para">
+              <p>Copyright © 2022 Amazon Refund</p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-5 col-lg-offset-4 col-md-5 col-md-offset-3 col-sm-12"
+          >
+            <div class="address apply-flex">
+              <i class="fas fa-map-marker-alt round"></i>
+              <span>198 West 21th Street, Suite 721 New York NY 10016</span>
+            </div>
+            <div class="email apply-flex">
+              <i class="fas fa-paper-plane round"></i>
+              <span>Query@EazyHelpDesk.com</span>
+            </div>
+          </div>
+
+          <div class="col-sm-12">
+            <div class="para-hidden">
+              <p>Copyright © 2022 Amazon Refund</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button onclick="topFunction()" id="top-button">
+      <img src="image/up-arrow.png" />
+    </button>
+    <!-------------------------------------------------footer ends here---------------------------------------------------->
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
