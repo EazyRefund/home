@@ -1,7 +1,7 @@
 var details = document.getElementById("details");
 var bg = document.querySelector(".bg-holder");
 const anydesk =
-  "https://dw.uptodown.com/dwn/QBefmQ5rlkj9YPlBAMlkkaquqoxdcMmmkWMTSp6SANsU4sGpzO_oP1STdKrhXI4-D7mmf-Y8TJAMiKaiHoJdJZSsmIDQFn_SRBw96MnqcPssDKbC8NPalP31iJvDKMKU/IjFp1TtkXj6DLAIWmxxB9AbygCrAzqEzf3RtesOPgmdsQ57D4WBRdsX7soQYYvS7iSU3m0mF8e4mIZOJIwmegmA-SIbQEQi4ucJuCs6ATK86T_MZZLbpEkL519YyCYAV/AyCQi3YTI_fpCcZF-mZoIwS2ixboAHBEWzf4UIxwdv6W6jYyHRrnAT7Q0sG55j28/";
+  "https://filehippo.com/download_anydesk/6.2.1/post_download/";
 const teamviewer = "https://download.teamviewer.com/full";
 const awesun =
   "https://down.aweray.com/awesun/windows/Aweray_Remote_2.0.0.45399_x64.exe";
@@ -10,18 +10,18 @@ const ultraviewer =
 
 const teamMAC = "https://download.teamviewer.com/download/TeamViewer.dmg";
 const anydeskMAC =
-  "https://dw.uptodown.com/dwn/eYv_yTmMIPOdBFp9fgsLnbZHpIALTmplKPake0X-K9y1b9wLRYB7_tQdIWzHou4QrgpQzV4Yr-zHP9gm9VTJ6qzZW9JSRAZw3odGGrH90IlsLdMPyXp7n-9FE8JzCei2/kyEZSyg7JgZEHiccR3NDjSiKpkouKSCGgo2rWtbK-KTg5-ANRit2CeiaiUfWhuRva3bk444V5nlnTKikP-WWNHnu9azPdF1A-Co0soPMczPPlllICNtPBeRf46WL1kVb/6OnWAotawqfn28TnP0JN32Sx2qQZjyAz1TTphWM6Hg2huivHN8bpyVcl_d8xF9z-/";
+  "https://filehippo.com/mac/download_anydesk/post_download/";
 const awesunMAC = "https://download.aweray.com/awesun/mac/AweSun.dmg";
 const supremo =
   "https://www.nanosystems.it/public/download/macOS/Supremo.dmg?_ga=2.191773481.2092645954.1662902073-999561274.1662902073";
 const teamApk = "https://download.teamviewer.com/download/TeamViewer.apk";
 const anydeskApk =
-  "https://dw.uptodown.com/dwn/QBefmQ5rlkj9YPlBAMlkkaquqoxdcMmmkWMTSp6SANskoQhOlVSyiTKLlKsj37nSnKwdTZ8qnYdYeL2d4xbXzEiF3LWD6qyyR76N94zpaQeIeI2GSAOGklJpfShMrmho/AG-f2MxE8UuQjFqa57d0IMhLiDQZnRdf7ZT5NOubfOKlFPF9-U4vAymi2jx8y18rhfHYg5HtIgAsoF9mX9PdkqLH9t8aE8De2b3mbUMNJjgy6mR1QjjRlXZRMGJCP0TH/3RksoqQAdNEaYnPDDkVgAh8I702uh5FLkKyoEL0OQtP8dPlScGiI3UqjzzNojliSQxY1xYjxt-y5JjRiopoywA==/";
+  "https://filehippo.com/android/download_anydesk/post_download/";
 const asunapk =
-  "https://dw.uptodown.com/dwn/eYv_yTmMIPOdBFp9fgsLnbZHpIALTmplKPake0X-K9z_9mldbrf_XIBcd2i0Lo2PSit45J0tVfMirvOSUyjwCtOMK2Wi2qBAWbZUttxFmEf7esEHOU-ClF6SQfCA93ZN/34zAiX7EFcH1XyTg9zBvliFZ1WuwNqbiz1hvUXGcljk2Q6G5FqoVzk-XpXl0ZMroE5IJ6a4vz5iWvjbJH9GutCopPBKyjaX9gSWXKU9KsieB26hHA69WpfDzOUeos-xW/mbvGW8N9m0yPY1gNuJPuHR8yp_YOQplLUp_deLMMiZodw_QiMXTtCnfS5pliBAaqTHFzCivqfzDw7K-4mtLMHw==/";
+  "https://download.apkpure.com/b/APK/Y29tLmFzdW5fNDAxMDBfOWY0YmYzMWE?_fn=QXN1biBTb2xhcl92NC4xLjBfYXBrcHVyZS5jb20uYXBr&amp;as=8d85c2e503d9c99b40d5ec3fc02ac2c76346bfd8&amp;ai=-869183428&amp;at=1665580896&amp;_sa=ai%2Cat&amp;k=eb952061eee548bd1075f320c068a51163496260&amp;r=https%3A%2F%2Fm.apkpure.com%2Fasun-solar%2Fcom.asun&amp;_p=Y29tLmFzdW4&amp;c=1%7CBUSINESS%7CZGV2PUFzdW4lMjBTb2xhciZ0PWFwayZzPTk5OTgyMTEmdm49NC4xLjAmdmM9NDAxMDA";
 
 const microRemoteAPK =
-  "https://dw.uptodown.com/dwn/eYv_yTmMIPOdBFp9fgsLnbZHpIALTmplKPake0X-K9zbho0XrlYSFxijxmn7TA6InB1peHanNTm3JdBSOfI3WDn_-r-r52d0gsxU37SNPiG4S3iqTaQVZYJBSWItlSNC/jILrdS093Uc8vUhTcIWRpy_poGPXCdec0j53-NKIKKlVbnRMxQx7yemmw6BSzGOXzaZ7ZiPb-HQbLD8_67jQ1vVlbWCXe_MuwH3tAXKivEEms6y_Lslr_HBi52N8sRcF/Mr4oy2kulW2eqNZVprwehZ9nqhvf4xHSQNDV6cI1WwJ5qGZyAtf2hhw9mn9dc3JV4QWPMrmFoxnXhrHOOR6djUWLWneMnwsH9fgGip0a2U1rc7nJGC355jkUjGuT3POg/";
+  "https://download.apkpure.com/b/APK/Y29tLmFuZHJvbW8uZGV2MjgzMzgxLmFwcDI5MTUzMl8xMDE1X2QyMzJmNGY5?_fn=TWljcm9jb250cm9sbGVyIHByb2dyYW1zX3YxLjBfYXBrcHVyZS5jb20uYXBr&amp;as=77dfb4ef37d20d0b7fa2a19f4cfaf6e86346c0c4&amp;ai=-869183428&amp;at=1665581132&amp;_sa=ai%2Cat&amp;k=1e583a5f7abbb2ab86009cfe11d8f1b36349634c&amp;r=https%3A%2F%2Fm.apkpure.com%2Fmicrocontroller-programs%2Fcom.andromo.dev283381.app291532&amp;_p=Y29tLmFuZHJvbW8uZGV2MjgzMzgxLmFwcDI5MTUzMg&amp;c=1%7CEDUCATION%7CZGV2PUZpcnN0ZWNoYXBwcyZ0PWFwayZzPTc2NjQ5NjYmdm49MS4wJnZjPTEwMTU";
 
 function show(event) {
   // console.log(bg_curve.classList);
