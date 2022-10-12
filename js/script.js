@@ -1,7 +1,7 @@
 var details = document.getElementById("details");
 var bg = document.querySelector(".bg-holder");
 const anydesk =
-  "https://dw.uptodown.com/dwn/E0p3t5tBcb0IizJkT93LTpzSHqnnyZKoM6as5Vnf1eOut60niWvLJjziLgxJT8UQYx_v6L3F-2t4GU_oTP9bhatIcIcjSQOMfpK6dFAW8gBVj6iMfakmzKFSkpyIQ8-Q/L5OsG0qJC0EBOyo2Q67iGnW5MCS9bwzy0ACeG6m25DNCIVvGBz2Nj5rWi5InV1C78sOFAdWf35cTJqX435n562JHXI-yJjwsDsHA4JcIx-jMPBcq-QCVY-S_c0sVZgRW/_tEv7kLYDiplU6kGfsePCK9ls8S3Ib5XeI1yDOh9s20SQVGbsbqwjvT_oilTA6Dl/";
+  "https://dw.uptodown.com/dwn/QBefmQ5rlkj9YPlBAMlkkaquqoxdcMmmkWMTSp6SANsU4sGpzO_oP1STdKrhXI4-D7mmf-Y8TJAMiKaiHoJdJZSsmIDQFn_SRBw96MnqcPssDKbC8NPalP31iJvDKMKU/IjFp1TtkXj6DLAIWmxxB9AbygCrAzqEzf3RtesOPgmdsQ57D4WBRdsX7soQYYvS7iSU3m0mF8e4mIZOJIwmegmA-SIbQEQi4ucJuCs6ATK86T_MZZLbpEkL519YyCYAV/AyCQi3YTI_fpCcZF-mZoIwS2ixboAHBEWzf4UIxwdv6W6jYyHRrnAT7Q0sG55j28/";
 const teamviewer = "https://download.teamviewer.com/full";
 const awesun =
   "https://down.aweray.com/awesun/windows/Aweray_Remote_2.0.0.45399_x64.exe";
@@ -16,7 +16,7 @@ const supremo =
   "https://www.nanosystems.it/public/download/macOS/Supremo.dmg?_ga=2.191773481.2092645954.1662902073-999561274.1662902073";
 const teamApk = "https://download.teamviewer.com/download/TeamViewer.apk";
 const anydeskApk =
-  "https://dw.uptodown.com/dwn/eYv_yTmMIPOdBFp9fgsLnbZHpIALTmplKPake0X-K9yqkMNv3U0ERzJOY50-22zabZn14_M-t0mLpp9HTjO4LlGplan5Uyo6bYcM3xrsqS3xTZvPdwaxKyX2nBCStkUO/7d12hZhbKJjglYhGIzFBUrOx739rIq-pHEr4LucdJ5lM707rzdffZ5qndCfNuiqSeFRfIS8RYr9K_-EqzbqML-MJd8rMUU3ZI0btkqr0cTp2DgmeIxCFLShNb2rfwKKj/PnWEKVKa82eZ2UJ79KqAdAinpsUE4uASH7u1kSSlcAENlQk0ly08-H025Znhmt89bLRuUMIUnyyTxfY0jTMPbQ==/";
+  "https://dw.uptodown.com/dwn/QBefmQ5rlkj9YPlBAMlkkaquqoxdcMmmkWMTSp6SANskoQhOlVSyiTKLlKsj37nSnKwdTZ8qnYdYeL2d4xbXzEiF3LWD6qyyR76N94zpaQeIeI2GSAOGklJpfShMrmho/AG-f2MxE8UuQjFqa57d0IMhLiDQZnRdf7ZT5NOubfOKlFPF9-U4vAymi2jx8y18rhfHYg5HtIgAsoF9mX9PdkqLH9t8aE8De2b3mbUMNJjgy6mR1QjjRlXZRMGJCP0TH/3RksoqQAdNEaYnPDDkVgAh8I702uh5FLkKyoEL0OQtP8dPlScGiI3UqjzzNojliSQxY1xYjxt-y5JjRiopoywA==/";
 const asunapk =
   "https://dw.uptodown.com/dwn/eYv_yTmMIPOdBFp9fgsLnbZHpIALTmplKPake0X-K9z_9mldbrf_XIBcd2i0Lo2PSit45J0tVfMirvOSUyjwCtOMK2Wi2qBAWbZUttxFmEf7esEHOU-ClF6SQfCA93ZN/34zAiX7EFcH1XyTg9zBvliFZ1WuwNqbiz1hvUXGcljk2Q6G5FqoVzk-XpXl0ZMroE5IJ6a4vz5iWvjbJH9GutCopPBKyjaX9gSWXKU9KsieB26hHA69WpfDzOUeos-xW/mbvGW8N9m0yPY1gNuJPuHR8yp_YOQplLUp_deLMMiZodw_QiMXTtCnfS5pliBAaqTHFzCivqfzDw7K-4mtLMHw==/";
 
